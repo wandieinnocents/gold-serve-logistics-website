@@ -6,6 +6,10 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .animated {
   -webkit-animation-duration: .5s;
           animation-duration: .5s;
