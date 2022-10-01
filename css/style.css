@@ -160,9 +160,20 @@ SUBHEADER
 	text-align: center;
 	}
 
+	.subheader-qse {
+		padding-top: 80px;
+		background: url(../img/bg/qse.jpg) top;
+		background-size: cover !important;
+		text-align: center;
+		}
+
 	#subheader.page-gallery {
 	background: url(../img/bg/bg-subheader-1.jpg) top;
 	}
+
+	/* #subheader.page-qhse {
+		background: url(../img/bg/qse.jpg) top;
+		} */
 
 	#subheader.page-about {
 	background: url(../img/bg/banner.png) top;
