@@ -11,8 +11,9 @@
 
     <!-- LOAD CSS FILES -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="https://www.dafontfree.net/embed/YXJpc3RvdGVsaWNhLXRleHQtdHJpYWwtZGVtaWJvbGQmZGF0YS8xMDAvYS8xNzA0OTEvQXJpc3RvdGVsaWNhLVRleHQtRGVtaUJvbGQtdHJpYWwudHRm" rel="stylesheet" type="text/css"/>
-     <!-- style -->
+    <!-- <link href="https://www.dafontfree.net/embed/YXJpc3RvdGVsaWNhLXRleHQtdHJpYWwtZGVtaWJvbGQmZGF0YS8xMDAvYS8xNzA0OTEvQXJpc3RvdGVsaWNhLVRleHQtRGVtaUJvbGQtdHJpYWwudHRm" rel="stylesheet" type="text/css"/> -->
+    <link href="https://blogfonts.com/css/aWQ9MTQ3MTU3JnN1Yj0xNTcmYz1hJnR0Zj1hcmlzdG90ZWxpY2EudGV4dC10cmlhbC1leHRyYWxpZ2h0LnR0ZiZuPWFyaXN0b3RlbGljYS10ZXh0LXRyaWFsLWV4dHJhbGlnaHQtNA/Aristotelica Text Trial ExtraLight.ttf" rel="stylesheet" type="text/css"/> 
+    <!-- style -->
   <style>
     /* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
     /* @import url('https://fonts.cdnfonts.com/css/aristotelica-display-trial'); */
@@ -23,7 +24,8 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Adero Trial', sans-serif;
+      /* font-family: 'Adero Trial', sans-serif; */
+      font-family: 'aristotelica-text-trial-extralight-4', sans-serif;
                                                 
     }
 
@@ -38,7 +40,8 @@
       font-family: 'Aristotelica Display Trial', sans-serif;
       font-family: 'Aristotelica Small Caps', sans-serif ; 
       /* font-family: 'Adero Trial', sans-serif; */
-      font-family: 'Aristotelica Small Caps', sans-serif;                                         
+      /* font-family: 'Aristotelica Small Caps', sans-serif;  */
+      font-family: 'aristotelica-text-trial-extralight-4', sans-serif;                                        
     }
     
 
@@ -66,8 +69,8 @@
     h6 {
       font-weight: 700;
 
-      
-      font-family: 'Aristotelica Small Caps', sans-serif;
+      font-family: 'aristotelica-text-trial-extralight-4', sans-serif;
+      /* font-family: 'Aristotelica Small Caps', sans-serif; */
       /* font-family: 'Aristotelica Display Trial', sans-serif;
       font-family: 'Aristotelica Small Caps', sans-serif ; */
     }
@@ -80,8 +83,8 @@
     li {
       list-style-type: none;
 
-      
-      font-family: 'Aristotelica Small Caps', sans-serif;
+      font-family: 'aristotelica-text-trial-extralight-4', sans-serif;
+      /* font-family: 'Aristotelica Small Caps', sans-serif; */
     }
 
 
@@ -452,6 +455,15 @@
         margin-top: 1.5em;
       }
     }
+
+    @media  (max-width: 480px) and (min-width: 200px) {
+    .video-container video {
+        /* max-width: 320px; */
+        width: 100%;
+        max-height: 200px;
+      }
+    }
+
   </style>
   <!-- End of style -->
 </head>
@@ -549,10 +561,10 @@
         <section class="showcase">
             <!-- <video src="https://static.videezy.com/system/resources/previews/000/006/304/original/Forklift.mp4" muted loop
               autoplay></video> -->
-
-             <video src="img/videos/gold-serve.mp4" muted loop
+              <div class="video-container">
+             <video  src="img/videos/gold-serve.mp4" muted loop
              autoplay></video>
-             
+            </div>
       
             <div class="overlay"></div>
         
@@ -749,7 +761,9 @@
                         <div class="clearfix"></div>
 
                     </div>
-                </div>
+                
+                
+                  </div>
             </section>
 			<!-- section close -->
 			
@@ -826,6 +840,7 @@
       </section>
 
 			<section id="section-partners">
+        <div class="container">
                     <!--partner logos-->
                     <div class="row">
 
@@ -853,11 +868,12 @@
                     </div>
                         </div>
                     </div>
+                    </div>
       </section>
 
 
 			<section id="section-partners">
-                    
+        <div class="container">     
                     <!--Membership and Accreditation logos-->
                     <div class="row">
 
